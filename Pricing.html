@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html class="all">
+<head>
+    <meta charset="utf-8" />
+    <title>Pricing</title>
+    <link href="MainStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <script src="Pricing.js"></script>
+    <header>
+        <a href="Home.html"><img src="Resources/sorrento_by_the_sea_logo.jpg" alt="Sorrento by the Sea logo" /></a>
+        <h1>Sorrento by the Sea</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Apartment.html">Apartment</a></li>
+            <li><a href="Highlights.html">Highlights</a></li>
+            <li><a href="Pricing.html">Pricing</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>Pricing</h2>
+    <section class="mainGrid">
+        <section>
+            <h3>Summer</h3>
+            <p>Terms and Conditions</p>
+            <ul>
+                <li>1st September - 18th December</li>
+                <li>1st February - 31st May</li>
+                <li>Total amount is payable on booking</li>
+                <li>A full refund will be given prior to 30 days cancellation</li>
+                <li>50% refund will be given after 30 days of cancellation</li>
+                <li>In the event of a weekly or monthly booking the apartment will be serviced weekly unless by prior arrangement</li>
+                <li>Weekly Price     $1,250</li>
+                <li>Monthly Price    $5,400</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Winter</h3>
+            <p>The pricing is for 2 people</p>
+            <ul>
+                <li>1st June - 31st August</li>
+                <li>The apartment is strictly no smoking</li>
+                <li>$200 per night</li>
+            </ul>
+        </section>
+    </section>
+    <h2>BOOK NOW</h2>
+    <div>
+        <label>Date:</label>
+        <input name="cal" id="calendar" type="date" value="2021-06-18" />
+        <button id="ok" type="button" onclick="addDate()">Add date</button>
+        <button id="remove" type="button" onclick="removeDate()">Remove date</button>
+        <p id="out"></p>
+        <p id="total"></p>
+    </div>
+
+    <footer>
+        <img src="Resources/facebook_small.png" alt="Facebook logo" />
+        <img src="Resources/instagram_small.png" alt="Instagram logo" />
+        <img src="Resources/twitter_small.png" alt="Twitter logo" />
+        <img src="Resources/youtube-variation_small.png" alt="Youtube logo" />
+        <img src="Resources/paypal_small.png" alt="Paypal logo" />
+        <p>&copy; Sorrento by the Sea 2021</p>
+    </footer>
+</body>
+</html>
